@@ -1,0 +1,5 @@
+/Users/Hanslen/Projects/test/test/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/Hanslen/Projects/test/test/bin/Debug/test.exe.mdb
+/Users/Hanslen/Projects/test/test/bin/Debug/test.exe
+/Users/Hanslen/Projects/test/test/obj/x86/Debug/test.exe
+/Users/Hanslen/Projects/test/test/obj/x86/Debug/test.exe.mdb

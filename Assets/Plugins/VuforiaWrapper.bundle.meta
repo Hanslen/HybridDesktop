@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: 81718d2c6d094451d88ebb9e4b1d5f96
+folderAsset: yes
+timeCreated: 1476649579
+licenseType: Free
+PluginImporter:
+  serializedVersion: 1
+  iconMap: {}
+  executionOrder: {}
+  isPreloaded: 0
+  platformData:
+    Any:
+      enabled: 0
+      settings: {}
+    Editor:
+      enabled: 1
+      settings:
+        DefaultValueInitialized: true
+    OSXIntel:
+      enabled: 1
+      settings: {}
+    OSXIntel64:
+      enabled: 1
+      settings: {}
+    OSXUniversal:
+      enabled: 1
+      settings: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
