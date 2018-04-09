@@ -1,0 +1,85 @@
+% Chapter Template
+
+\chapter{Evaluation of the project} % Main chapter title
+The Hybrid Desktop study is a short lab based study to evaluate a new type of study environment by using Mixed reality technology. 
+\label{Chapter7} % Change X to a consecutive number; for referencing 
+\section{Testing Methodology}
+Hybrid Desktop is tested with 7 university students which is the target group of this project. In the Hybrid Desktop study, students will be asked to perform some tasks which will take no longer than 10 minutes. And the tasks involve some gestures to interact with the Leap Motion device to control the display of documents, add tasks to the bulletin board, make annotations and experience the augmented surrounds. These tasks have been chosen to exploit system features and test whether it fits most students’ habits. After these tasks, there will be a short interview about their experience. 
+\\
+\\
+The core structure of questions which will be asked during the interviews are: 
+\\
+1. Do you think the bulletin board can improve your study efficiency? If not, what information do you want to see from the bulletin board. 
+\\
+2. Do you think the interaction with PDF reader is easy and flexible? If not, what should it improve? 
+\\
+3. Do you think the management of task is easy and convenient? And In the future, the web browser will be brought to the hybrid desktop as well, so the user can interact with the website in a more direct way. What’s your opinions about this implementation? 
+\\
+4. Do you like the electronic annotation? How to you feel about this feature? 
+\\
+5. How do you feel about the surroundings? 
+\\
+6. Except the current view is not so clear, are you willing to install this application and try to use it in your daily study? If not, why? 
+\\
+7. Do you have any suggestions about this project.
+\\
+\\
+Besides, when students perform some interesting behaviors like they are unfamiliar with Leap Motion and it is their first time to interact with this device, what are their opinion about this device? Or when it comes with some unexpected situation, the instructor needs to monitor the students’ behavior and ask the reason of their behavior.
+\\
+\\
+These questions can evaluate whether students like the hybrid desktop, and make further improvement. So far, hybrid desktop has been tested among six students.
+
+\section{User testing and interview}
+The limitation of these tests is the resolution ratio. The headset this project using provides a vague view, so each time when interviewing with students, they are asked to get rid of this problem and think about if the view is good and clear, what’s their opinion about this implementation.
+\subsection{Evaluation of PDF reader}
+First, students are asked to use Leap Motion to control the PDF reader or change slides. They are instructed to perform three gestures: Switching PDF, changing size of the PDF reader and moving the PDF reader. Besides, the test will also evaluate whether it is flexible for students to enable and disable gestures.
+\\
+\\
+When they hover their hand on the Leap Motion, their behavior is not so nature, and looks stiff. The common thing is each time when they want to perform a gesture, they all try to perform exaggeratedly. For example, switching the PDF to the next slide: they only need to perform a smoothly swiping gesture, but some students do it very quickly or they move their hand from the very left to the very right. The problem caused by these unusual behavior is sometimes Leap Motion cannot capture the hand because of quick movement and unordinary position. The reason for this behavior is some students said “It is my first time to use Leap Motion and I don't know whether my gestures are recognizable, so I am a kind of exploring it.“ So, during the test, when students’ gesture looks uncommon, the instructor will tell them how to perform more naturally and ensure their hands are in the recognizable zone of Leap Motion.
+\\
+\\ 
+The accuracy of correct recognition of the Leap Motion gestures is 83\%, and there are still some gestures that Leap Motion cannot respond very quickly. When this worst situation happens, student will choose to use the virtual buttons to switch the PDF slides automatically. They respond that these virtual buttons are very important because it seems to be an alternative for switching the slides. 
+For the Leap Motion control, students think it is an interesting implementation and they prefer to choose Leap Motion switch rather than virtual buttons. But for enable gestures, most students have a problem which is they don’t know the progress of the enabling progress (How long they still need to hover their hands above the Leap Motion). They suggest the AI servant can tell them more, for example, they can see the percentage of this progress. 
+\\
+\\
+\textbf{Improvement:} Adapted by their suggestions, the project adds the progress status to the AI servant. So, they can see the progress status will start at 0\%, when it reaches 100\%, the instruction board will enable “the current disable gestures” and disable “the current enable gestures”.
+
+\subsection{Evaluation of Bulletin board}
+Students are asked to experience the bulletin board and evaluate the practicability of it. Firstly, some students say that they have the habit to use “todolist” (An easy task manager on phone or laptop), and they consider it as a very significant part of their study efficiency. When seeing these tasks, they tend to have more motivation to focus on study. Besides, students suggest that the bulletin board may be better if they can customize the background of it. It will help desktop looks more personalized. When they are asked to interact with the website to manage the tasks, they think it is convenient and easy to interact. By looking at their behavior, this part is quite different from the Leap Motion test. Because every student is familiar with website, and their interaction is much more nature and common. And this part let the Hybrid Desktop has more confidence when students are familiar with these interaction, they will be easier to perform their gestures and do what they want. 
+\\
+\\
+Some student said, “It would be brilliant if the bulletin board could be a website itself or the hybrid desktop can provide the web browser. Because it can explosively increase the information I can get”. The instructor explained the current the limitation of this implementation of iPhone, and web broswer will be developed in the future. After hearing these possible implementation, students express their satisfactory about the future of Hybrid Desktop. And they hope whether the Leap Motion can use to control the bulletin board as well. Sometimes, they want to move the position of the bulletin board.
+\\
+\\
+\textbf{Improvement:} Provide the user a chance to customize their background of the bulletin board and enable the Leap Motion movement of the bulletin board. (These two improvement will not be added to the hybrid desktop yet, because the technique is same as the movement of the PDF reader. So, these two will be left as the further improvement.)
+
+\subsection{Evaluation of AI servant}
+AI servant is served as the reminder or instructor. Based on the evaluation of Leap Motion, Hybrid Desktop add the progress status to the AI servant. Students think it is an important part, because as a user, they don’t know the backend of the project, and sometimes, they want to know whether the camera has tracked something and whether the Leap Motion is doing the correct recognition.
+\\
+\\
+The disadvantage of the current version is the view. Students respond that it is unrelated with the project itself, but the headset cannot provide the view very clearly. But the AI servant’s message box is small, so they cannot read the words. It doesn’t mean that the message box needs to be bigger, because AI servant is a supplement component of the desktop, and the current size is enough. Besides, they suggest more intelligent program should be implemented with the AI servant. The current AI servant does not look very intelligent, and it is just an interface between backend and frontend.
+\\
+\\
+\textbf{Improvement:} Develop more Artificial Intelligence components to the project and let the AI servant be a true assistant of Hybrid Desktop.
+
+
+\subsection{Evaluation of Hybrid Desktop website}
+This test is mixed with the bulletin board, because it is an interface of the bulletin board’s task manager. For the convenient aspect, it is easy and flexible to handle. The task manager is satisfied by every student, and there is no direct suggestion.
+\\
+\\ 
+Students are interested in the online annotation section. When the instructor asks them which one do they prefer: Augmented keyboard or physical keyboard. And the answer is still they prefer the physical keyboard. Some students are the one who this project asked before, and when they experience the real project, they love it, and think it is interesting to note with augmented annotation. However, it still exists the problem with the display of the cardboard. Because the size of the annotation box is small as well, so they need to look very carefully.
+\\
+\\
+\textbf{Improvement:} More sections can be opened in the website and develop this website as a control panel. Because in the future, the bulletin board should be a web browser and the information inside it is just the Hybrid Desktop website.
+
+\subsection{Evaluation of my project}
+The final application which was evaluated was the project proposed in this report. As some students commented that how they love this idea and implementation, this studying experience is a brand new one and really combine the advantages of physical and electronic desktop. Although the resolution ratio currently is not satisfied, students express that with the development of virtual glasses, the prospect should be useful. A student said that “It seems this project stores my materials inside my phone, and when I wear a virtual glass, they can all jump out of my phone. This experience is amazing, and strongly hope that more and more application can be developed for hybrid desktop. I hope I can even don’t carry my laptop to library one day.” And most students agree that this hybrid desktop provides them a brand new study experience.
+
+\section{Successes and Limitation of the project}
+For the success of this project, all the listed proposed functionalities have been completely achieved. The most challenging task which is interaction between Google Cardboard and Leap Motion has been achieved as prospected as well. Based on this technique, it makes the gesture control of the PDF reader possible. The electronic annotation displaying system used to be another challenge task of this project, and I used to implement it with many ideas. Finally, I choose to develop it with another imageTarget and using real keyboard to do typing. And it gives the user a chance to move it as they want and real keyboard retain the typing pleasure. So, it can be evaluated that the project is completed as it should be.
+\\
+\\
+For the limitation of this project, last few weeks before the deadline, I was improving the accuracy of Leap Motion gestures recognition. Leap Motion is a necessary tool to help students experience better about this desktop. However, based on the user tests, many students have not used it before. So, when they are interacting with this device, they will do some exaggerated gestures, and Leap Motion cannot respond very accurately about these gestures. Although the accuracy of Leap Motion gesture recognition can be 83\%, it should be approximately above 95\%.
+\\
+\\ 
+Another limitation is the virtual glass, I develop and test this project with Google Cardboard whose resolution ratio is low. It strongly influences the user experience, and during the interview with students, all most every student mentions the view is not clear and said if the view is clear, it should be much more useful. 

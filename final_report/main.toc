@@ -1,0 +1,60 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.3}
+\contentsline {chapter}{\numberline {2}Motivation}{2}{chapter.4}
+\contentsline {chapter}{\numberline {3}Background Information}{3}{chapter.5}
+\contentsline {section}{\numberline {3.1}What is Mixed Reality?}{3}{section.6}
+\contentsline {section}{\numberline {3.2}Existing Mixed Reality Application}{3}{section.7}
+\contentsline {subsection}{\numberline {3.2.1}Mixed Reality Desktop}{3}{subsection.8}
+\contentsline {subsection}{\numberline {3.2.2}Mixed Reality Application in Education}{4}{subsection.9}
+\contentsline {chapter}{\numberline {4}Project requirements}{6}{chapter.10}
+\contentsline {section}{\numberline {4.1}Hybrid Desktop with Mixed Reality survey}{6}{section.11}
+\contentsline {section}{\numberline {4.2}Scenario}{7}{section.13}
+\contentsline {section}{\numberline {4.3}Proposed functionality}{8}{section.14}
+\contentsline {subsection}{\numberline {4.3.1}AR document list and PDF reader}{8}{subsection.15}
+\contentsline {subsection}{\numberline {4.3.2}Bullet board}{8}{subsection.16}
+\contentsline {subsection}{\numberline {4.3.3}Artificial Intelligence servant}{8}{subsection.17}
+\contentsline {subsection}{\numberline {4.3.4}Electronic annotation displaying system}{8}{subsection.18}
+\contentsline {subsection}{\numberline {4.3.5}Hybrid Desktop Website}{9}{subsection.19}
+\contentsline {section}{\numberline {4.4}Platforms and Tools}{9}{section.20}
+\contentsline {subsection}{\numberline {4.4.1}Unity as developing platform}{9}{subsection.21}
+\contentsline {subsection}{\numberline {4.4.2}Leap Motion for supporting gestures}{9}{subsection.22}
+\contentsline {subsection}{\numberline {4.4.3}Software development Kit}{10}{subsection.23}
+\contentsline {subsection}{\numberline {4.4.4}Programming Languages}{10}{subsection.24}
+\contentsline {subsection}{\numberline {4.4.5}Database selection}{10}{subsection.25}
+\contentsline {chapter}{\numberline {5}Design}{12}{chapter.26}
+\contentsline {section}{\numberline {5.1}User Interface Design}{12}{section.27}
+\contentsline {subsection}{\numberline {5.1.1}Graphics design}{12}{subsection.28}
+\contentsline {subsection}{\numberline {5.1.2}Gesture interaction design}{13}{subsection.30}
+\contentsline {section}{\numberline {5.2}System Structure design}{14}{section.31}
+\contentsline {subsection}{\numberline {5.2.1}Framework design}{14}{subsection.32}
+\contentsline {subsection}{\numberline {5.2.2}Database design}{15}{subsection.34}
+\contentsline {chapter}{\numberline {6}Software Implementation}{16}{chapter.36}
+\contentsline {section}{\numberline {6.1}PDF reader and Document List}{16}{section.37}
+\contentsline {section}{\numberline {6.2}Hybrid desktop website}{17}{section.39}
+\contentsline {section}{\numberline {6.3}Bulletin board}{18}{section.41}
+\contentsline {section}{\numberline {6.4}Electronic annotation displaying system}{19}{section.44}
+\contentsline {section}{\numberline {6.5}Leap Motion with iPhone}{20}{section.46}
+\contentsline {subsection}{\numberline {6.5.1}Socket communication for server(PC) and client(iPhone)}{20}{subsection.47}
+\contentsline {subsection}{\numberline {6.5.2}Coordinate system and Motion tracking data}{21}{subsection.49}
+\contentsline {subsection}{\numberline {6.5.3}Conversion between gesture and command}{21}{subsection.50}
+\contentsline {subsection}{\numberline {6.5.4}Performing Leap Motion controlling with iPhone}{22}{subsection.52}
+\contentsline {section}{\numberline {6.6}AI servant}{22}{section.53}
+\contentsline {chapter}{\numberline {7}Evaluation of the project}{24}{chapter.54}
+\contentsline {section}{\numberline {7.1}Testing Methodology}{24}{section.55}
+\contentsline {section}{\numberline {7.2}User testing and interview}{25}{section.56}
+\contentsline {subsection}{\numberline {7.2.1}Evaluation of PDF reader}{25}{subsection.57}
+\contentsline {subsection}{\numberline {7.2.2}Evaluation of Bulletin board}{25}{subsection.58}
+\contentsline {subsection}{\numberline {7.2.3}Evaluation of AI servant}{26}{subsection.59}
+\contentsline {subsection}{\numberline {7.2.4}Evaluation of Hybrid Desktop website}{26}{subsection.60}
+\contentsline {subsection}{\numberline {7.2.5}Evaluation of my project}{27}{subsection.61}
+\contentsline {section}{\numberline {7.3}Successes and Limitation of the project}{27}{section.62}
+\contentsline {chapter}{\numberline {8}Further work}{28}{chapter.63}
+\contentsline {section}{\numberline {8.1}Improve experience with new device}{28}{section.64}
+\contentsline {section}{\numberline {8.2}More Usability improvement}{28}{section.65}
+\contentsline {section}{\numberline {8.3}Introduce 3D printing to Hybrid Desktop}{29}{section.66}
+\contentsline {chapter}{\numberline {9}Summary and personal Evaluation}{30}{chapter.67}
+\contentsline {section}{\numberline {9.1}Project management}{30}{section.68}
+\contentsline {section}{\numberline {9.2}Self reflection}{31}{section.70}
+\contentsline {chapter}{Bibliography}{33}{appendix*.71}
